@@ -8,14 +8,12 @@ project('kdoom', 'c',
 
 cc = meson.get_compiler('c')
 
-# Dependencies
 x11_dep = dependency('x11', required: true)
 m_dep = cc.find_library('m', required: true)
 
-# Match Makefile CFLAGS
 add_project_arguments(
   '-ggdb3',
-  '-Os',
+  '-O3',
   '-Wall',
   '-DNORMALUNIX',
   '-DLINUX',
