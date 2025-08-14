@@ -1,0 +1,7 @@
+{
+  "items": [{
+  "name": "Launch DOOM",
+  "priority": 1,
+  "action": "./launcher.sh"
+  }]
+}

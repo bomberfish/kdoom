@@ -107,12 +107,12 @@ srcs = files(
 )
 
 executable(
-  'doomgeneric',
+  'kdoom',
   srcs,
   dependencies: [x11_dep, m_dep],
   install: true,
   link_args: [
     '-Wl,--gc-sections',
-    '-Wl,-Map,doomgeneric.map',
+    '-Wl,-Map,kdoom.map',
   ],
 )

@@ -2,3 +2,5 @@ builddir*
 .DS_Store
 **/Thumbs.db
 **/.DS_Store
+kual/kdoom
+kual/DOOM.wad
